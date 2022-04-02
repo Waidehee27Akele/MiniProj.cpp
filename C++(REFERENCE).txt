@@ -1,0 +1,181 @@
+#include<iostream>  //while execution used for preprocessing//
+using namespace std;
+
+int main(){                //main func which                              executes at first//
+    //cout<<"Hello world";
+/*data types
+    int a,b,c;    
+    short sa=9;*/
+    
+/*camelCase notation
+  int marksInMath=83;
+  cout<<"The marks are"<<marksInMaths;(mim=marksInMath)
+  */
+  
+  //string//
+  /*short a;
+  int b;
+  long c;
+  long long d;
+  float const score = 45.62; //const means nobody after can change it//
+  double score2 = 45.322;
+  long double score3=45.2332;
+  cout<<"The score is" <<score;*/
+  
+  //For user input//
+  int a, b;
+  cout<<"Enter First number"<<endl;
+  cin>>a;
+  cout<<"Enter second number"endl;
+  cin>>b;
+  
+  //operators//  //arithmetic oper//
+  cout<<"the sum is"<<a + b<<endl;
+  cout<<"the diff is"<<a - b<<endl;
+  cout<<"the multiplication is"<<a * b<<endl;
+  cout<<"the division is"<<(float)a / b<<endl;  //Type casting// 
+  //logical orper//bitwise//Misleneous oper
+  
+   //If Else condition//
+   
+   int age;
+   cout<<"Enter your age"<<endl;
+   cin>>age;
+   
+   if(age>150 || age<1)
+   {
+       cout<<"Invalid age";
+   }
+   else if(age>=18)
+   {
+       cout<<"U can vote";
+   }
+   else
+   {
+       cout<<"u cannot";
+   }
+   
+//SWITCH statement//
+int age;
+cout<<"Enter ur age";
+cin>>age;
+
+switch (age)
+{
+case 12:
+cout<< "U are 12 years old" <<endl;
+break;   //When u dont want to execute after the above statement use break.If want to execute after above statement dont use break statement//
+case 18:
+cout<<"U are 18 years old" <<endl;
+break;
+
+default:
+cout<<"U are neither 12 nor 18";
+}
+
+/* LOOPS */
+
+int index = 0;
+while(index<34)
+{
+    cout<<"WE are at index num "<<index<<endl;
+    index = index + 1;
+}
+
+do
+{
+    cout<<"We are at index num "<<index<<endl;
+    index = index + 1;
+}while (index < 33);
+
+for (int i = 0; i < 34; i++)
+{
+    cout<<"The value of i is "<<i<<endl;
+}
+
+
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
